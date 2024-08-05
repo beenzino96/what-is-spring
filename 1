@@ -1,0 +1,17 @@
+개발자 편의를 위해 만든 스프링 부트
+
+어노테이션 이라는 @사용한문법
+
+@Controller 
+이 어노테이션 된 컨트롤러를 통해 뷰를 원하는 모습으로 볼수 있게해준다
+그안속에 스프링이 자동으로 전달해주는 빈이라는 객체들을 편리하게 자동으로 등록해준다
+@Getmapping("")
+겟매핑한 주소로 템플렛의 HTML의 내용을 보여준다.
+
+Connectionpool
+http가 요청한 데이터를 connection들을 미리 연결 해놓고 다시 connection을 반환할수 있는 풀이다.(저장공간)
+
+Spring JDBC
+DTO & DAO
+                       DTO              DTO          DTO            Entity
+Client (Browser,Mobile) <-> Controlloer <-> Service <-> DAO(Repository)<-> DB
